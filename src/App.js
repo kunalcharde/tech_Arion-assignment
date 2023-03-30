@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css"
+import Counter from './Component/Counter';
+import Task2 from './Component/Task2';
+import Task3 from './Component/Task3';
+import Task4 from './Component/Task4';
+import NavRoute from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h2> TASK-1 and TASK-2</h2>
+      <Counter/>
+      <hr />
+      <h2> TASK-3 </h2>
+      <Task2/>
+      <hr />
+      {/* <Task3/> */}
+      <h2> TASK-4</h2>
+      <Task4/>
+      <hr />
     </div>
   );
 }
