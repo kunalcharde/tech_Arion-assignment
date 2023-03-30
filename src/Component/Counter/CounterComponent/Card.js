@@ -25,7 +25,8 @@ export default function CounterCard() {
     const handleDecrement = ()=>{
         if(counterValue!=1){
             setCounterValue(counterValue - 3)
-        }     
+        }
+        setCounterValue(1)
     }
     console.log(counterValue)
   return (
