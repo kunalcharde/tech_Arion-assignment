@@ -2,6 +2,8 @@ import React from 'react'
 import { Route,Routes } from 'react-router'
 import { BrowserRouter } from 'react-router-dom'
 import App from '../App'
+import Counter from '../Component/Counter'
+import Task2 from '../Component/Task2'
 import Task4 from '../Component/Task4'
 import Page1 from '../Component/Task4/Pages/Page1'
 import Page2 from '../Component/Task4/Pages/Page2'
@@ -11,9 +13,9 @@ const NavRoute = () => {
     <BrowserRouter>
     <Routes>
         <Route index path={"/"} element={<App/>} />
-        <Route path={"/page1"} element={<Page1/>} />
-        <Route path ={"/page2"} element={<Page2/>}/>
-        <Route  path ={"/page3"} element={<Page3/>}/>
+        <Route path={"/page1"} element={<Counter/>} />
+        <Route path ={"/page2"} element={<Task2/>}/>
+        <Route  path ={"/page3"} element={<Task4/>}/>
     </Routes>
     </BrowserRouter>
     

@@ -9,6 +9,8 @@ import NavRoute from './Routes';
 function App() {
   return (
     <div className='App'>
+
+      <h1>ALL TASK PAGE</h1>
       <h2> TASK-1 and TASK-2</h2>
       <Counter/>
       <hr />
